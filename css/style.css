@@ -1,0 +1,149 @@
+/* @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'); */
+
+/* 
+@media (max-width: 700px) {
+   .notice {
+      margin-top: 32px;
+      font-size: 24px !important;
+   }
+} */
+
+body {
+  background: #fafafa;
+  font-family: "Google Sans", sans-serif;
+}
+
+.gdsc-heading{
+  font-size: 100px;
+}
+
+.description pt-3{
+  font-size: 50px;
+}
+
+/* ---- Navbar styles ---- */
+.navbar {
+  background-color: #fafafa;
+}
+
+.nav-bg {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  max-width: 80%;
+}
+
+.dsc-logo {
+  max-width: 90%;
+}
+
+@media (min-width: 600px) {
+  .dsc-logo {
+    max-height: 90%;
+    max-width: 400px;
+  }
+}
+
+.navbar-nav {
+  font-size: 1.125rem;
+}
+
+span.c1 {
+  color: #E53D30;
+}
+span.c2 {
+  color: #FCC421;
+}
+span.c3 {
+  color: #249544;
+}
+span.c4 {
+  color: #0087D2;
+}
+
+.navbar-expand-lg .collapse:not(.show) .nav-link.lg-item {
+  padding: 1.5rem;
+  /* color: #333; */
+}
+
+/* .navbar-expand-lg.nav-bg .collapse:not(.show) .nav-link.lg-item {
+   padding-top: 1.125rem;
+   padding-bottom: 1.125rem;
+} */
+
+/* ---- Minor tweaks ---- */
+
+.btn-primary {
+  background-color: #4285f4;
+  border-color: #4285f4;
+}
+
+/* 400px + 0.125 * (100vw - 400px) */
+/* .description {
+   max-width: calc(12.5vw + 350px); 
+} */
+
+.card {
+  background-color: #fafafa;
+}
+
+/* .card img {
+   box-shadow: 0 0 50px 8px rgba(0, 0, 0, 0.03);
+   background-color: #fff;
+} */
+
+.list-item {
+  padding: 0.5rem 1rem 0.5rem 0.25rem;
+  margin-left: 1.5rem;
+}
+
+/* ---- Utility ---- */
+.mh-vh-50 {
+  max-height: 50vh;
+}
+
+.h-3r {
+  height: 3rem;
+}
+
+.h-6r {
+  height: 6rem;
+}
+
+.py-4 {
+  padding-top: 3.5rem!important;
+  padding-bottom: 2.5rem!important;
+}
+
+.card-body{
+  box-shadow: 0 45px 100px rgb(14 21 47 / 20%), 0 16px 40px rgb(14 21 47 / 20%);
+  border-radius: 2px solid;
+}
+
+.gdsc-heading{
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #E53D30 0%,
+     #FCC421 29%,
+     #249544 67%,
+     #0087D2 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   /* text-fill-color: transparent; */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+}
+ 
+@keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+}
